@@ -1,28 +1,12 @@
-REMIX DEFAULT WORKSPACE
+Curso de Extensión Universitaria en Tecnologías Blockchain (Universidad de Málaga)
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+El módulo 2 de este curso se centra en el Lenguaje de programación Solidity
+Aprende los fundamentos de Solidity, el leguaje de programación de Ethereum y la base de los tokens y criptomonedas.
 
-This workspace contains 3 directories:
+Este tema se centra en profundidad en la red Ethereum y, particularmente, en el desarrollo de apliaciones decentralizadas.
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+Primeramente se ofrece una introducción a los conceptos básicos detrás de las plataformas basadas en Smart Contracts; y en particular, a la arquitectura de la red Ethereum como plataforma de computación general.
 
-SCRIPTS
+A continuación, se explicó el lenguaje de programación Solidity - que permite el desarrollo de contratos inteligentes que se ejecuten sobre la Ethereum Virtual Machine (EVM), así como diversos aspectos relacionados con Ethereum como los tokens ERC20.
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+En este repositorio se encuentran los ficheros realizados en clase o tareas.
